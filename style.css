@@ -1,0 +1,77 @@
+@keyframes bgcolor{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+#button{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#head{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  display: block;
+   border: radius 200px; ;
+  text-align: center;
+  background: linear-gradient(270deg,#676866, #bebcbc, #ffffff, #676765);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+}
+#memes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  padding: 10px;
+  margin-left: 10px;
+}
+#memes div {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  height: auto;
+  width: 250px;
+}
+#memes div h4 {
+  padding: 5px;
+  text-align: center;
+  background: none;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin: 0;
+}
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 12px;
+  transition: 200ms;
+}
+img:hover {
+  border-radius: 0px;
+  transform: scale(1.2);
+}
+#one{
+  text-align: center;
+}
+.cheems{
+  background-color: #000000;
+  border: red;
+}
+#ss{
+color: rgb(0, 0, 0);
+border-radius: 200px;
+}
+#sk{
+  border: solid black;
+  height: 150px;
+  width: 150px;
+}
+#foo{
+  color: #000000;
+}
